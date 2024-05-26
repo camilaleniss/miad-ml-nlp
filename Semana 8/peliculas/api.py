@@ -9,10 +9,10 @@ app = Flask(__name__)
 api = Api(
     app,
     version='1.0',
-    title='Car Price Prediction API',
-    description='Car Price Prediction API'
+    title='Movie Genere API',
+    description='Movie Genere Prediction API'
 )
-ns = api.namespace('predict', description='Car Price')
+ns = api.namespace('predict', description='Movie Genere')
 # Definición de campos de respuesta
 response_model = api.model('Response', {
     'Action': fields.Float,
