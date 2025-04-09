@@ -2,3 +2,5 @@
 **/.ipynb_checkpoints
 
 Semana 3/*.csv
+**/__pycache__/
+Semana 8/peliculas/__pycache__/*
